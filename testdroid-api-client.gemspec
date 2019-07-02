@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{2.2.2}
   s.summary = %q{Testdroid API Client!}
   s.add_runtime_dependency "oauth2",'~> 0.9'
-  s.add_runtime_dependency "faraday",'~> 0.8.8', '>= 0.8.8'
+  s.add_runtime_dependency "faraday"
   s.add_runtime_dependency "rest-client",'~> 2.0', '>= 2.0.0'
   s.add_runtime_dependency "deep_merge",'~> 1.1', '>= 1.1.1'
   s.add_development_dependency "bump",'~> 0.5'
