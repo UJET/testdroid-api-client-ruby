@@ -15,17 +15,17 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
   s.rubygems_version = %q{2.2.2}
   s.summary = %q{Testdroid API Client!}
-  s.add_runtime_dependency "oauth2",'~> 0.9'
+  s.add_runtime_dependency "oauth2"
   s.add_runtime_dependency "faraday"
-  s.add_runtime_dependency "rest-client",'~> 2.0', '>= 2.0.0'
-  s.add_runtime_dependency "deep_merge",'~> 1.1', '>= 1.1.1'
+  s.add_runtime_dependency "rest-client"
+  s.add_runtime_dependency "deep_merge"
   s.add_development_dependency "bump",'~> 0.5'
   s.add_development_dependency "rake"
   s.add_development_dependency "rspec"
   s.add_development_dependency "rspec-collection_matchers"
   s.add_development_dependency "vcr",  '~> 2.9'
   s.add_development_dependency "webmock", '~> 1.9'
-  s.add_development_dependency "yard", '~> 0.9.12'
+  s.add_development_dependency "yard"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
